@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'last_name', 'email', 'password', 'profile_image', 'role_id'
     ];
 
     /**
@@ -36,4 +36,41 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * App\Role relation.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
+    /**
+     * App\User relation.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function employees()
+    {
+        return $this->belongsToMany(User::class, 'employee_manager', 'manager_id',
+            'employee_id');
+    }
+
+    /**
+     * App\User relation.
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function managers()
+    {
+        return $this->belongsToMany(User::class, 'employee_manager', 'employee_id',
+            'manager_id');
+    }
+
+    public function getImageAttribute()
+    {
+        return $this->profile_image;
+    }
 }
