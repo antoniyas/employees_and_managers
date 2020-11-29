@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4182504a-4350-4b42-b6ef-908f0631f9d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,7 @@
       <updated>1606374654543</updated>
       <workItem from="1606374655601" duration="25070000" />
       <workItem from="1606534263969" duration="8592000" />
-      <workItem from="1606562454114" duration="22863000" />
+      <workItem from="1606562454114" duration="24813000" />
     </task>
     <servers />
   </component>
@@ -231,18 +232,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="344" key="GridCell.Tab.2.right/67.27.1853.1053@67.27.1853.1053" timestamp="1606625013021" />
+    <state x="242" y="117" width="1482" height="872" key="MergeDialog" timestamp="1606628241470">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="242" y="117" width="1482" height="872" key="MergeDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1606628241470" />
+    <state x="624" y="315" width="728" height="475" key="MultipleFileMergeDialog" timestamp="1606628241472">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="624" y="315" width="728" height="475" key="MultipleFileMergeDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1606628241472" />
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1606532191610">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1606532191610" />
-    <state x="922" y="512" width="618" height="522" key="find.popup" timestamp="1606626037493">
+    <state x="922" y="512" width="618" height="522" key="find.popup" timestamp="1606630342339">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="922" y="512" width="618" height="522" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1606626037493" />
-    <state x="1136" y="575" width="672" height="678" key="search.everywhere.popup" timestamp="1606625256194">
+    <state x="922" y="512" width="618" height="522" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1606630342339" />
+    <state x="1136" y="575" width="672" height="678" key="search.everywhere.popup" timestamp="1606630604562">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1136" y="575" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1606625256194" />
+    <state x="1136" y="575" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1606630604562" />
     <state x="718" y="384" width="540" height="337" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606387984713">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
